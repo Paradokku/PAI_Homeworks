@@ -1,1 +1,2 @@
 # PAI Homeworks
+## Repo ćwiczeń
