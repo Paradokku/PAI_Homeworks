@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>art_page</title>
+</head>
+<style>
+* {
+  box-sizing: border-box;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+nav li {
+    display: inline;
+  }
+aside{
+    float: left;
+    height: auto;
+}
+article {
+  float: left;
+  padding: 20px;
+  margin: 40px;
+}
+section::after {
+  content: "";
+  clear: both;
+}
+
+</style>
+<body>
+    <header>
+        <img src="pic01.jpg" style="width:100px;height:90px;">
+    </header>
+
+    <nav class="menu">
+        <ul>
+          <li><a href="#">poz1</a></li>
+          <li><a href="#">poz2</a></li>
+          <li><a href="#">poz3</a></li>
+          <li><a href="#">poz4</a></li>
+        </ul>
+      </nav>
+  
+    <aside>
+        <form action="">
+            <input type="text"><br><br>
+            <input type="text"><br><br>
+            <input type="text"><br><br>
+            <input type="text"><br><br>
+        </form>
+    </aside>
+    <main>
+    <article>
+        <header>
+            pic01
+        </header>
+        <main>
+            <img src="pic02.jpg" style="width:100px;height:90px;"><br>
+            <input class="button1"
+            type="button"
+            value="przycisk">
+        </main>
+    </article>
+    <article>
+        <header>
+            pic02
+        </header>
+        <main>
+            <img src="pic03.jpg" style="width:100px;height:90px;"><br>
+            <input class="button2"
+            type="button"
+            value="przycisk">
+        </main>
+
+    </article>
+    </main>
+    <footer>
+        Stopka
+    </footer>
+</body>
